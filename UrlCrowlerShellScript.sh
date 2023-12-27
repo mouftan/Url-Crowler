@@ -31,5 +31,5 @@ while IFS=$' \t\r\n' read -r url; do
   curl -x "$proxy_host:$proxy_port" -k --max-time "$timeout_seconds" -X PUT "$url" -A "$Agent"
   echo "OPTIONS request to: $url"
   curl -x "$proxy_host:$proxy_port" -k --max-time "$timeout_seconds" -X OPTIONS "$url" -A "$Agent"
-  echo "-----------------------------------"
+  echo "Next ..."
 done < "$UrlList"
