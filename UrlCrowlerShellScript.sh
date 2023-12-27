@@ -12,8 +12,8 @@ echo " _      ____  _     _____ _____  ____  _
 echo "Loading this Shit now ..."                                            
 
 UrlList="$1"
-proxy_host="172.23.192.1"
-proxy_port="1991"
+proxy_host="IP"
+proxy_port="PORT"
 timeout_seconds=10
 Agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
 
